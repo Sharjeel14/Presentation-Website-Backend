@@ -1,1 +1,1 @@
-web: gunicorn application:application --host 0.0.0.0 $PORT
+gunicorn main:application
