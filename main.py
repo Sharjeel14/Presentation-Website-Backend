@@ -32,7 +32,7 @@ def index():
     return render_template('index.html')
 
 
-@application.route('/presentation', methods=["POST])
+@application.route('/presentation', methods=["POST"])
 def get_presentation():
     data = request.get_json()
     print(data)
